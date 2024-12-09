@@ -7,6 +7,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TableAgendaComponent } from './table-agenda/table-agenda.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AgendaComponent } from './agenda/agenda.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,14 @@ import { AgendaComponent } from './agenda/agenda.component';
     TableAgendaComponent,
     NavBarComponent,
     AgendaComponent,
+    InicioComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,4 @@
-export interface Agenda{
+export interface Agendas{
   id: number,
   namecommitment: string,
   localcommitment:string,
