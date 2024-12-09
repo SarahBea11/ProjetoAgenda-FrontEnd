@@ -1,19 +1,10 @@
 {
-  "posts": [
+  "agenda": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": 3,
+      "name": "Mouse Master Plus 22",
+      "price": 640,
+      "category": "Eletrônicos"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
